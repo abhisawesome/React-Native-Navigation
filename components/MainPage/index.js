@@ -6,7 +6,6 @@ import {
 import {createAppContainer} from 'react-navigation';
 import OneScreen from './One';
 import TwoScreen from './Two';
-import {createDrawerNavigator} from 'react-navigation-drawer';
 const RootStack = createMaterialTopTabNavigator(
   {
     One: OneScreen,

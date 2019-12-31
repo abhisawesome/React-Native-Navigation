@@ -6,8 +6,8 @@ import MainScreen from './MainPage';
 import Drawer from './Drawer';
 const RootStack = createStackNavigator(
   {
-    Home: HomeScreen,
     Details: DetailsScreen,
+    Home: HomeScreen,
     Main: MainScreen,
     Drawer,
   },
